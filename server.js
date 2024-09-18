@@ -10,6 +10,8 @@ const app = express();
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
+app.use(express.static("views"));
+
 //app.use("/api", apiRoutes);
 
 mongoose.connect(process.env.DB_CONNECTION)
