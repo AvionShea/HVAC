@@ -60,6 +60,15 @@ Install the project dependencies using npm:
 npm i dotenv express mailtrap mongoose nodemailer
 ```
 
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+DB_CONNECTION =
+MAIL_TOKEN =
+```
+
 **Running the Project**
 
 ```bash
